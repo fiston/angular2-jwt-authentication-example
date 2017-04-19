@@ -19,7 +19,7 @@ export class UserService {
         let options = new RequestOptions({ headers: headers });
 
         // get users from api
-        return this.http.get('/api/users', options)
+        return this.http.get('http://10.8.19.151:9966/api/me', options)
             .map((response: Response) => response.json());
     }
 }

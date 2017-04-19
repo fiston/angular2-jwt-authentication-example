@@ -33,10 +33,7 @@ import { HomeComponent } from './home/index';
         AuthenticationService,
         UserService,
 
-        // providers used to create fake backend
-        fakeBackendProvider,
-        MockBackend,
-        BaseRequestOptions
+
     ],
     bootstrap: [AppComponent]
 })
